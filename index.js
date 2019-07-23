@@ -35,4 +35,4 @@ const resp = {
 	}
 }
 
-export default resp
+module.exports = resp;

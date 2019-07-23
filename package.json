@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-response",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A standard response for the unification of different serverless services",
   "main": "index.js",
   "scripts": {
