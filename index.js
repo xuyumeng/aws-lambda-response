@@ -26,6 +26,13 @@ const resp = {
 			message: message
 		}
 	},
+	internalError(message = "Internal server error, please contact us") {
+		return {
+			success: false,
+			error: "InternalError",
+			message: message
+		}
+	},
 	notFound(message = "Not Found") {
 		return {
 			success: false,
